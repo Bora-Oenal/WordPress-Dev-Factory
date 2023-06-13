@@ -1,0 +1,288 @@
+/* Global */
+body,
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+/* Header */
+header#masthead {
+    width: 1400px;
+    margin: 0 auto;
+}
+.elementor-element.elementor-element-439628a1.e-con-boxed.e-flex.e-con {
+    padding: 0;
+}
+#masthead > div > div > div {
+    padding: 0;
+}
+/* Menu*/
+.hgt-menu {
+    height: 30px;
+}
+.elementor-1486 .elementor-element.elementor-element-366a96c7 > .elementor-widget-container {
+    padding: 0;
+}
+
+/* Mobile Menu */
+@media (max-width: 480px) {
+    .hgt-menu {
+        background-color: transparent!important;
+        height: 55px;
+    }
+}
+.sub-arrow i {
+    background: none;
+}
+/* Startpage */
+/* Hero Section */
+/* not full-width */
+#post-12 > div > div > div {
+    width: 100%;
+}
+article#post-12 {
+    padding: 0 20px;
+}
+/* WHY WE SECTION */
+.elementor-element.elementor-element-aac0070.e-con-full.flx-section.e-flex.e-con {
+    flex-direction: row;
+}
+.why-we-sec-img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Kontaktformular */
+/*Border-radius for all input fields */
+input#wpforms-604-field_1,
+input#wpforms-604-field_1-last,
+input#wpforms-604-field_2,
+input#wpforms-604-field_5,
+textarea#wpforms-604-field_6 {
+    border-radius: 8px;
+}
+/* Senden button */
+button#wpforms-submit-604 {
+    background: #FFA65D;
+    border-radius: 8px;
+}
+button#wpforms-submit-604:hover {
+    background: #FFF;
+    color: #5CA6B4;
+    border-radius: 8px;
+}
+
+/* Akkordeon Automatisierte Inhalte */
+/* Icon */
+.elementor-678 .elementor-element.elementor-element-7c59c7f .elementor-tab-title .elementor-toggle-icon i:before {
+    font-size: 50px;
+}
+.seminartermin {
+    padding: 50px 20px;
+    border-bottom: 1px solid #5ca6b4;
+}
+h2.seminartitel,
+h3.title-h3 {
+    margin: 0;
+}
+h3.title-h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+h2.seminartitel {
+    margin-bottom: 10px;
+}
+
+.seminartermin-heading {
+    margin-bottom: 20px;
+}
+.flx-col {
+    display: flex;
+    flex-direction: row;
+}
+.first-col, .second-col {
+    display: flex;
+    padding: 10px 0;
+}
+.col-lft{
+    width: 75%;
+}
+.col-rgt{
+    width: 25%;
+}
+.icon-and-copy {
+    display: flex;
+    margin-right: 40px;
+    width: 290px;
+}
+.icon-and-copy img {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-right: 20px;
+}
+p.datum-p,
+p.standort-p,
+p.sprache-p,
+p.dauer-p,
+p.kosten_seminar-p {
+    font-size: 20px;
+    font-weight: 600;
+}
+button.pretix-button {
+    margin-bottom: 20px;
+}
+button.pretix-button,
+button.btn-more{
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;;
+}
+
+.arrow-acc-flx {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover,
+.active {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 160px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.div-flx {
+    display: flex;
+    flex-direction: column;
+}
+.icons-sec-row {
+    display: flex;
+    flex-direction: row;
+
+}
+.icon-txt-row {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    align-items: center;
+    margin-right: 150px;
+}
+span.elementor-accordion-icon.elementor-accordion-icon-left {
+    display: none;
+    margin-left: -30px;
+}
+.elementor-accordion-item {
+    margin-right: 30px;
+}
+/*hide underlines accordion title*/
+a.elementor-accordion-title {
+    text-decoration: none!important;
+}
+.elementor-accordion-item {
+    border-bottom: 7px solid #5ca6b4!important;
+}
+
+/* Img-teaser sections */
+.teaser-txt {
+    font-size: 22px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+.basic-txt {
+    font-size: 20px;
+}
+.cont-copy-section {
+    max-width: 70%;
+}
+.entry-content p {
+    margin: 0;
+}
+/* Slider - DozentInnen */
+#post-1278 > div > div > div.elementor-element.elementor-element-c93c6f4.e-con-boxed.e-flex.e-con > div > div.elementor-element.elementor-element-26e6254.e-con-boxed.e-flex.e-con > div > div.elementor-element.elementor-element-672dfec.elementor-arrows-position-inside.elementor-pagination-position-outside.elementor-widget.elementor-widget-image-carousel.e-widget-swiper > div > div > div.elementor-swiper-button.elementor-swiper-button-next > i,
+#post-1278 > div > div > div.elementor-element.elementor-element-c93c6f4.e-con-boxed.e-flex.e-con > div > div.elementor-element.elementor-element-26e6254.e-con-boxed.e-flex.e-con > div > div.elementor-element.elementor-element-672dfec.elementor-arrows-position-inside.elementor-pagination-position-outside.elementor-widget.elementor-widget-image-carousel.e-widget-swiper > div > div > div.elementor-swiper-button.elementor-swiper-button-prev > i {
+    font-size: 40px;
+}
+
+/* ACCORDION NEW VERSION */
+i.fas.fa-caret-down {
+    font-size: 58px;
+    position: relative;
+    top: 14px;
+    right: 30px;
+}
+i.fas.fa-caret-up {
+    font-size: 58px;
+}
+i.fas.fa-caret-down {
+    border-radius: 0;
+}
+.acc-header {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 12px;
+}
+.title-txt-block {
+    padding: 0 20px;
+    line-height: 34px;
+    width: 100%;
+}
+i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    padding: 2px;
+}
+p.subliner-acc {
+    font-size: 22px;
+}
+p.hdliner-acc {
+    font-size: 29px;
+}
+p.hdliner-acc,
+p.subliner-acc {
+    margin: 0;
+}
+
+a.elementor-toggle-title {
+    text-decoration: none!important;
+}
+.elementor-toggle .elementor-tab-title {
+    padding: 15px 0 !important;
+}
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    line-height: 0.8;
+}
+/* pretix-button Detail-Pages */
+.elementor-shortcode:not(:first-child) {
+    display: none;
+}
+
+
+/* Anstehende Seminare Box - automatisiert*/ 
+.seminartermin-anst-sem-box {
+    margin-bottom: 20px;
+    /* border-bottom: 1px solid #5ca6b4; */
+    padding: 10px 0;;
+}

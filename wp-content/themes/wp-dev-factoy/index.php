@@ -12,6 +12,7 @@
  ?>
 
 <div class="content">
+    CONTENT
 </div>
         
 <!-- include footer.php -->

@@ -2,7 +2,7 @@
 /**
  * Main Template File
  * 
- * @wp-dev-factory
+ * @package wp-dev-factory
  */
 
  ?> 
@@ -25,6 +25,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        Hello World
+        <header>Header</header>
+        <footer>Footer</footer>
     </body>
 </html>

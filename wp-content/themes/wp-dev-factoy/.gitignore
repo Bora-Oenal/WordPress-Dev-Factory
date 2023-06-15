@@ -27,3 +27,5 @@ Thumbs.db
 sftp-config.json
 *.sublime-project
 *.sublime-workspace
+style-wm.css
+function-wm.php
